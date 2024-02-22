@@ -1,12 +1,14 @@
 # Ethereum-gas Documentation
 
-- npm install ethereum-gas-price
-- node test.js
+- npm install @cicciocoin/ethereum-gas
+- create a .env file and set your ETH_RPC_PROVIDER 
+
+CODE EXAMPLE : 
 
 ```Javascript
-const getEthereumGas = require('./ethereumGas');
+const gasPrice = require('@cicciocoin/ethereum-gas');
 
-getEthereumGas().then((gasPriceEther) => {
+gasPrice().then((gasPriceEther) => {
   console.log('Gas price in ether:', gasPriceEther);
 }).catch((error) => {
   console.error('Error:', error);
