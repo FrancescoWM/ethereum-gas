@@ -1,0 +1,20 @@
+{
+  "name": "ethereum-gas-price",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ethereumGas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FrancescoWM/ethereum-gas.git"
+  },
+  "keywords": [],
+  "author": "cicciocoin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "web3": "^4.5.0"
+  }
+}
