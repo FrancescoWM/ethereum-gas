@@ -1,6 +1,6 @@
 {
   "name": "@cicciocoin/ethereum-gas",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Get Ethereum gas price where do you want",
   "main": "ethereumGas.js",
   "dependencies": {
